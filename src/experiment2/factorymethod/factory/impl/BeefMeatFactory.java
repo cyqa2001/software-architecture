@@ -7,6 +7,7 @@ import experiment2.factorymethod.meat.impl.Beef;
 public class BeefMeatFactory implements MeatFactory {
     @Override
     public Meat produceMeat() {
+        System.out.println("牛肉工厂：");
         return new Beef();
     }
 }

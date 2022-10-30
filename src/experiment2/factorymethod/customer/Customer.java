@@ -9,8 +9,12 @@ public class Customer {
         PorkMeatFactory porkMeatFactory = new PorkMeatFactory();
         porkMeatFactory.produceMeat();
 
+        System.out.println();
+
         BeefMeatFactory beefMeatFactory = new BeefMeatFactory();
         beefMeatFactory.produceMeat();
+
+        System.out.println();
 
         ChickenMeatFactory chickenMeatFactory = new ChickenMeatFactory();
         chickenMeatFactory.produceMeat();
