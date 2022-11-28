@@ -7,12 +7,12 @@ import experiment3.util.SortUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentAdapter extends SortUtil implements StudentTarget {
+    public class StudentAdapter extends SortUtil implements StudentTarget {
 
     private List<Integer> intList = new ArrayList<>();
     private List<Student> students1 = new ArrayList<>();
     @Override
-    public List sortStudent(List<Student> students) {
+        public List sortStudent(List<Student> students) {
         if (intList != null) intList.clear();
         for (Student student : students) {
             intList.add(student.getId());

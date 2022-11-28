@@ -1,6 +1,5 @@
 package experiment3.objectAdapter;
 
-import experiment3.classAdapter.StudentAdapter;
 import experiment3.pojo.Student;
 
 import java.util.ArrayList;
@@ -18,7 +17,7 @@ public class Main2 {
 
         int flag;
 
-        experiment3.classAdapter.StudentAdapter studentAdapter = new StudentAdapter();
+        StudentAdapter studentAdapter = new StudentAdapter();
 
         while (true) {
             flag = 0;

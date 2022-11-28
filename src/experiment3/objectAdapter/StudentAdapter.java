@@ -11,11 +11,11 @@ public class StudentAdapter implements StudentTarget {
 
     private List<Integer> intList = new ArrayList<>();
     private List<Student> students1 = new ArrayList<>();
-    SortUtil sortUtil;
+    private SortUtil sortUtil = new SortUtil();
     @Override
     public List sortStudent(List<Student> students) {
 
-        sortUtil = new SortUtil();
+
 
         if (intList != null) intList.clear();
         for (Student student : students) {
